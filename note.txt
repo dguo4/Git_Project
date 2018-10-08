@@ -1,0 +1,29 @@
+Set git user name:
+git config --global user.name "user name"
+
+Set git user email:
+git conifg --global user.email "user email"
+
+Create new git initial file (indicate this folder will be used for Github):
+git init
+
+Set up remote:
+git remot add origin https://github.com/dguo4/Python/Python.git
+
+Add files to Github:
+git add Hello_world.ly
+
+Add all files to Github:
+git add .
+
+Add comments to added files:
+git commit -m "Hello python"
+
+Push the commit we have done to repository on Github
+git push origin master
+
+Clone repository to local file
+git clone https://...
+
+Pull changes:
+git pull origin master
